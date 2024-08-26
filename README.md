@@ -17,7 +17,7 @@ for x in range(len(l1)): # se agrega cada producto en su respectiva posición
  m.insert(x,l1[x]*l2[x])
 print(m)
 ```
-## Ceros que aparezcan en un arreglo.
+## Agregar ceros que aparezcan en un arreglo al final de la lista
 ```python
 l1 = [0,0,1,1,2] # Lista de valores
 m = l1.count(0) # Contador de Cantidad de ceros
